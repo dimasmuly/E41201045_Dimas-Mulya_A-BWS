@@ -24,8 +24,9 @@ public class TugasB {
         System.out.println("Bilangan kelipatan 2 (1 - 100) ");
         System.out.println(StringUtils.rightPad( "=", 30, "="));
         do {
-            System.out.print(angkaWhile*2 + " ");
-            angkaWhile++;
+            int x = angkaWhile * 2;
+            System.out.print(x + " ");
+            angkaWhile = x;
         } while (angkaWhile <= 50);
     }
 
