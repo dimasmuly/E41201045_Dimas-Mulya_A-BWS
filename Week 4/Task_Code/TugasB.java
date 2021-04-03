@@ -12,9 +12,14 @@ public class TugasB {
         System.out.println(StringUtils.center("\"For\" Loop:", 30));
         System.out.println("Bilangan kelipatan 2 (1 - 100) ");
         System.out.println(StringUtils.rightPad( "=", 30, "="));
-        for (int i = 0; i < 50; i++) {
+        
+        int newResult = 0;
+        for (int i = x; i < 100; i++) {
+            newResult = x * 2;
+            If (x < 100) {
             System.out.print(angkaFor*2 + " ");
-            angkaFor++;
+         }
+            x = newResult ;
         }
 
         System.out.println();
