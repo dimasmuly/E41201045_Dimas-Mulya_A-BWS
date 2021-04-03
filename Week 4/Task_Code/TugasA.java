@@ -16,7 +16,9 @@ public class TugasA {
         batasBilangan = sc.nextInt();
 
         for (int i = awalBilangan; i <= batasBilangan; i++) {
-            System.out.print(i % " ");
+            If (i % 2 == 0) {
+                System.out.print(i % " ");
+           }
         }
     }
 
